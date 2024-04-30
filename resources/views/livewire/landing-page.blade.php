@@ -1,7 +1,6 @@
 
-<div class="bg-black">
-    <header class="w-3/4 h-16 m-auto flex justify-start items-start">
-        <nav class="flex gap-12 text-2xl text-white">
+<div class="">
+        <nav class="flex gap-12 text-2xl text-red-800 w-3/4 h- justify-start items-center">
             <img src="" alt="SDGAMES">
             <a href="#">Inicio</a>
             <a href="#">Catalogo </a>
@@ -9,7 +8,6 @@
             <a href="#">Nosotros</a>
             <a href="#">Contacto</a>
         </nav>
-    </header>
 
     <div class="grid grid-cols-1">
         <div>
