@@ -5,16 +5,21 @@
     <div class="grid grid-cols-1">
         <div>
             <div class="relative">
-                <nav class="flex sticky top-0 gap-12 text-2xl text-white pl-20 w-3/4 h-32 justify-start items-center backdrop-opacity-0 font-bold lg:w-14 md:w-12 sm:md:w-12 xs:w-12  z-20">
-                    <a href="#">
-                        <img src="https://sdprimetv.com/images/logo.webp" alt="SDGAMES" class="h-16 w-16 ">
-                    </a>
-                    <a href="#">Inicio</a>
-                    <a href="#">Catalogo </a>
-                    <a href="#">Promociones</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Contacto</a>
-                </nav>
+
+
+
+                    <nav class="flex top-0 gap-12 text-2xl text-white pl-20 w-3/4 h-32 justify-start  backdrop-opacity-0 font-bold shadow-md py-4 px-4 flex-col items-center md:flex-row md:justify-between">
+                        <a href="#">
+                            <img src="https://sdprimetv.com/images/logo.webp" alt="SDGAMES" class="h-16 w-16 ">
+                        </a>
+                        <a href="#">Inicio</a>
+                        <a href="#">Catalogo </a>
+                        <a href="#">Promociones</a>
+                        <a href="#">Nosotros</a>
+                        <a href="#">Contacto</a>
+                    </nav>
+
+
                 <img style="margin-top: -130px " src="https://tablered.mx.arauco.com/wp-content/uploads/2020/03/textura-mate.jpg" id="main_banner" class="2xl:w-full xl:w-full lg:w-full md:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-99 xs:h-98" alt="banner 1 sdprimetv">
                 <div class="absolute sm:top-0 xs:top-0 sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-12 lg:top-28 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10">
                     <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:text-6xl xs:text-6xl mb-4 text-montserrat md:text-6xl font-bold">
