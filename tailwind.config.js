@@ -12,6 +12,9 @@ export default {
         },
         translate: {
             '4.25': '-50%',
+        },
+        fontFamily: {
+            mons:["Montserrat" , "Arial", "sans-serif"]
         }
     },
   },
