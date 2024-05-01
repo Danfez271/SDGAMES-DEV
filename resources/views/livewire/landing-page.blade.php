@@ -6,34 +6,65 @@
         <div>
             <div class="relative">
 
+                <header class="hero">
 
+                    <nav class="nav container font-bold" id="nav">
+                        <h2 class="nav__logo">
+                            <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
+                        </h2>
 
-                    <nav class="flex top-0 gap-12 text-2xl text-white pl-20 w-3/4 h-32 justify-start  backdrop-opacity-0 font-bold shadow-md py-4 px-4 flex-col items-center md:flex-row md:justify-between">
-                        <a href="#">
-                            <img src="https://sdprimetv.com/images/logo.webp" alt="SDGAMES" class="h-16 w-16 ">
+                        <ul class="nav__links">
+
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Inicio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Catalogo</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Promociones</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Nosotros</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Contacto</a>
+                            </li>
+
+                        </ul>
+
+                        <a href="#nav" class="nav__hamburguer">
+                            <img src="{{asset('images/homepage/menu.svg')}}" class="nav__icon">
                         </a>
-                        <a href="#">Inicio</a>
-                        <a href="#">Catalogo </a>
-                        <a href="#">Promociones</a>
-                        <a href="#">Nosotros</a>
-                        <a href="#">Contacto</a>
+
+                        <a href="#" class="nav__close">
+                            <img src="{{asset('images/homepage/close.svg')}}" class="nav__icon">
+                        </a>
+
                     </nav>
 
+                </header>
 
-                <img style="margin-top: -130px " src="https://tablered.mx.arauco.com/wp-content/uploads/2020/03/textura-mate.jpg" id="main_banner" class="2xl:w-full xl:w-full lg:w-full md:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-99 xs:h-98" alt="banner 1 sdprimetv">
-                <div class="absolute sm:top-0 xs:top-0 sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-12 lg:top-28 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10">
-                    <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:text-6xl xs:text-6xl mb-4 text-montserrat md:text-6xl font-bold">
+
+
+
+
+                <div class="TextoB">
+                    <div class="absolute sm:top-52 xs:top-0  sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-12 lg:top-28 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
+                    <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-2xl mb-4 text-montserrat md:text-6xl font-bold" >
                         ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
                     </h1>
                     <br>
-                    <div class="flex-wrap 4xl:gap-8 lg:gap-8 xl:gap-8 md:gap-8 sm:gap-0 xs:gap-0 my-auto">
-                        <div class="flex-1 8xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full justify-items-start">
+                        <div class="flex-wrap 4xl:gap-8 lg:gap-8 xl:gap-8 md:gap-8 sm:gap-0 xs:gap-0 my-auto">
+                            <div class="flex-1 8xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full justify-items-start">
                             <a href="#" id="scrolldown" class="4xl:text-4xl xl:text-4xl lg:text-xl md:text-xl sm:text-xl xs:text-xl  bg-gradient-to-r from-purple-900 to-purple-600 text-white font-bold py-4 px-12 rounded-full hover: font-mons  p-16 m-16    ">
                                 Explora nuestros juegos</a>
-                        </div>
-                    </div>
+                            </div>
+                         </div>
 
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

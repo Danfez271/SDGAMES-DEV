@@ -9,7 +9,7 @@
 
         <title>{{ $title ?? 'SDGAMES' }}</title>
 
-        @vite(['resources/css/app.css' , 'resources/js/app.js'])
+        @vite(['resources/css/app.css' , 'resources/js/app.js' , 'resources/css/estilos.css'])
         @livewireStyles
     </head>
     <body>
