@@ -15,7 +15,10 @@ export default {
         },
         fontFamily: {
             mons:["Montserrat" , "Arial", "sans-serif"]
-        }
+        },
+        screens: {
+            xs: "300px",
+        },
     },
   },
   plugins: [require('preline/plugin'),],

@@ -7,11 +7,16 @@
             <div class="relative">
 
                 <header class="hero">
-
                     <nav class="nav container font-bold" id="nav">
-                        <h2 class="nav__logo">
-                            <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
-                        </h2>
+
+                            <h2 class="nav__logo">
+                                <a href="">
+                                    <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
+                                </a>
+
+                            </h2>
+
+
 
                         <ul class="nav__links">
 
@@ -43,27 +48,35 @@
 
                     </nav>
 
+                    <div>
+
+
+
+
+                    </div>
                 </header>
 
+                    <div class="TextoB">
+                        <div class="absolute sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
+                            <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold" >
+                                ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
+                            </h1>
 
-
-
-
-                <div class="TextoB">
-                    <div class="absolute sm:top-52 xs:top-0  sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-12 lg:top-28 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
-                    <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-2xl mb-4 text-montserrat md:text-6xl font-bold" >
-                        ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
-                    </h1>
-                    <br>
-                        <div class="flex-wrap 4xl:gap-8 lg:gap-8 xl:gap-8 md:gap-8 sm:gap-0 xs:gap-0 my-auto">
-                            <div class="flex-1 8xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full justify-items-start">
-                            <a href="#" id="scrolldown" class="4xl:text-4xl xl:text-4xl lg:text-xl md:text-xl sm:text-xl xs:text-xl  bg-gradient-to-r from-purple-900 to-purple-600 text-white font-bold py-4 px-12 rounded-full hover: font-mons  p-16 m-16    ">
-                                Explora nuestros juegos</a>
+                            <br>
+                        <div class="flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto">
+                            <div class="flex-1 2xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full">
+                                <a href="#" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm  text-white font-bold  p-3.5 mt-5  text-montserrat text-center rounded-full bg-gradient-to-r from-purple-900 to-purple-600 px-12">
+                                    Explora nuestros juegos
+                                </a>
                             </div>
-                         </div>
+                        </div>
 
                     </div>
                 </div>
+
+
+
+
 
             </div>
         </div>
