@@ -9,16 +9,15 @@
                 <header class="hero">
                     <nav class="nav container font-bold" id="nav">
 
-                            <h2 class="nav__logo">
-                                <a href="">
-                                    <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
-                                </a>
 
-                            </h2>
+                        <h2 class="nav__logo">
+                            <a href="">
+                                <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
+                            </a>
 
+                        </h2>
 
-
-                        <ul class="nav__links">
+                        <ul class="nav__links ">
 
                             <li class="nav__item">
                                 <a href="#" class="nav__link">Inicio</a>
@@ -38,6 +37,8 @@
 
                         </ul>
 
+
+
                         <a href="#nav" class="nav__hamburguer">
                             <img src="{{asset('images/homepage/menu.svg')}}" class="nav__icon">
                         </a>
@@ -47,48 +48,36 @@
                         </a>
 
                     </nav>
-
                     <div>
+                        <div class="TextoB">
+                            <div class=" sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:ml-5 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
+                                <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold" >
+                                    ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
+                                </h1>
 
-
-
-
+                                <br>
+                                <div class="flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto">
+                                    <div class="flex-1 2xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full">
+                                        <a href="#" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm  text-white font-bold  p-3.5 mt-5  text-montserrat text-center rounded-full bg-gradient-to-r from-purple-900 to-purple-600 px-14 ">
+                                            Explora nuestros juegos!
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
                     </div>
                 </header>
-
-                    <div class="TextoB">
-                        <div class="absolute sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:left-4 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
-                            <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold" >
-                                ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
-                            </h1>
-
-                            <br>
-                        <div class="flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto">
-                            <div class="flex-1 2xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full">
-                                <a href="#" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm  text-white font-bold  p-3.5 mt-5  text-montserrat text-center rounded-full bg-gradient-to-r from-purple-900 to-purple-600 px-12">
-                                    Explora nuestros juegos
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-
             </div>
         </div>
     </div>
 
     <div class="grid grid-cols-1 " id="catalog">
-        <div class="bg-black pt-12 text-start pl-24">
-            <h2 class="text-white 2xl:text-5xl xl:text-5xl lg:text-3xl sm:text-3xl xs:text-3xl font-bold mb-4 text-montserrat">
+        <div class="bg-black pt-2 text-start justify-center pl-12">
+            <h2 class="text-white 2xl:text-5xl xl:text-5xl lg:text-3xl sm:text-4xl xs:text-4xl font-bold mb-4 text-montserrat">
                 Juegos mas populares</h2>
         </div>
 
-        <div class="grid 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 md:grid-cols-3 xs:gap-1 2xl:flex-none lg:flex-none md:flex xs:flex sm:flex xs:flex-row sm:flex-row xs:flex-wrap sm:flex-wrap sm:gap-2 xs:justify-center sm:justify-center bg-black py-7" id="catalog_service">
+        <div class="grid 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 md:grid-cols-3 xs:gap-2 2xl:flex-none lg:flex-none md:flex xs:flex sm:flex xs:flex-row sm:flex-row xs:flex-wrap sm:flex-wrap sm:gap-2 xs:justify-center sm:justify-center bg-black py-7" id="catalog_service">
             <div class="2xl:p-2 lg:p-2 md:p-2 rounded-lg hover:p-0 2xl:w-1/5 lg:w-1/5 md:w-1/3 xs:w-1/3 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
                 <a href="/streaming/netflix-premium">
                     <img src="https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/articles/fc-24-soundtrack/common/fc24-sountrack-page-1x1.jpg.adapt.320w.jpg" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Netflix Premium sdprimetv">
@@ -112,7 +101,42 @@
         </div>
     </div>
 
+
+
     <footer>
+
+        <div class="METODOS DE PAGO">
+
+            <div class="grid grid-cols-1 gap-4 2xl:py-10 xl:py-10 lg:py-10 md:py-10 sm:py-12 xs:py-12 ">
+                <div class="mx-4 siema">
+                    <div class="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row xs:flex-row sm:flex-row justify-center flex-wrap">
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/airtm.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="airtm">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/bbva.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="bbva">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/binance.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="binance">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/pago_movil.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="pago movil">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/zelle.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="zelle">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/reserve.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="reserve">
+                        </div>
+                        <div class="2xl:basis-1/12 xl:basis-1/12 lg:basis-2/12 md:basis-2/12 sm:basis-2/5 xs:basis-2/5 mx-4 mt-4">
+                            <img src="https://sdprimetv.com/images/methods_payments/zinli.webp?v=1714667525" loading="lazy" class="2xl:w-40 xl:w-40 lg:w-40 md:w-40 sm:w-40 xs:w-40 mx-auto brightness-0 grayscale" alt="zinli">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
         <div class="grid gap-4 2xl:grid-cols-3 2xl:py-20 xl:grid-cols-3 xl:py-20 lg:grid-cols-3 lg:py-10 md:grid-cols-1 md:py-10 sm:grid-cols-1 sm:py-12 xs:grid-cols-1 xs:py-12 bg-black  px-8" id="contact">
             <div>

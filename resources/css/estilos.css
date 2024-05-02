@@ -5,7 +5,7 @@
 .hero{
     background-image: url("https://tablered.mx.arauco.com/wp-content/uploads/2020/03/textura-mate.jpg");
     background-size: cover;
-    min-height: 600px;
+    min-height: 800px;
     height: 60vh;
     color: #ffffff;
 }
@@ -24,7 +24,7 @@
 
     padding: 40px 0;
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, max-content);
 }
@@ -33,11 +33,14 @@
     --state-menu: translate(0);
     --state-close: scale(1);
     --state-hamburguer:scale(0);
+
 }
 
 .nav__logo{
     font-size: 2.5rem;
     z-index: 1;
+    margin-right: 40px;
+
 }
 
 .nav__hamburguer,
@@ -46,6 +49,7 @@
     grid-column: -2/-1;
     grid-row: 1/2;
     transition: .4s transform;
+
 }
 
 .nav__hamburguer{
@@ -54,10 +58,13 @@
 
 .nav__close{
     transform: var(--state-close);
+
 }
 
 .nav__icon{
     width: 40px;
+
+
 }
 
 .nav__links{
@@ -71,7 +78,7 @@
 
     display: grid;
     align-content: center;
-    gap: 2em;
+    gap: 1.5em;
     padding-left: 5%;
 
     transform: var(--state-menu);
@@ -80,6 +87,7 @@
 
 .nav__item{
     list-style: none;
+
 }
 
 .nav__link{
@@ -87,16 +95,35 @@
     text-decoration: none;
     font-size: 1.2rem;
     letter-spacing: 2px;
+
+}
+
+@media (max-width: 767px){
+    .hero{
+        min-height: 400px;
+    }
+
+
+
+
+
 }
 
 @media (min-width:768px) {
     .nav{
         --state-hamburguer:scale(0);
         --state-menu: translate(0);
+
+        justify-items: end;
     }
+
+
+
+
 
     .nav:target{
         --state-close: scale(0);
+
     }
 
     .nav__links{
@@ -105,6 +132,7 @@
         position: unset;
         gap: 1.5em;
         grid-auto-flow: column;
+
 
         transform: unset;
 
@@ -120,7 +148,7 @@
 
     .TextoB{
         box-sizing: border-box;
-        max-width: 600px;
+        max-width: 1440px;
         width: 100%;
         margin: 0 auto;
         color: #ffffff;
