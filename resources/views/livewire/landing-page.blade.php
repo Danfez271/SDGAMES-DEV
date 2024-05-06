@@ -12,7 +12,7 @@
 
                         <h2 class="nav__logo">
                             <a href="">
-                                <img src="https://sdprimetv.com/images/logo.webp" alt=""class="h-16 w-16">
+                                <img src="https://sdprimetv.com/images/logo.webp" alt="" class="h-16 w-16">
                             </a>
 
                         </h2>
@@ -40,31 +40,32 @@
 
 
                         <a href="#nav" class="nav__hamburguer">
-                            <img src="{{asset('images/homepage/menu.svg')}}" class="nav__icon">
+                            <img src="{{asset('images/homepage/menu.svg')}}" alt="" class="nav__icon">
                         </a>
 
                         <a href="#" class="nav__close">
-                            <img src="{{asset('images/homepage/close.svg')}}" class="nav__icon">
+                            <img src="{{asset('images/homepage/close.svg')}}" alt=""  class="nav__icon">
                         </a>
 
                     </nav>
                     <div>
                         <div class="TextoB">
-                            <div class=" sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:ml-5 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10" id="TBienvenida">
+                            <div class=" sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:ml-5 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10 " id="TBienvenida">
                                 <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold" >
                                     ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
                                 </h1>
 
                                 <br>
-                                <div class="flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto">
+
+                                <div class=" flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto">
                                     <div class="flex-1 2xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full">
-                                        <a href="#" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm  text-white font-bold  p-3.5 mt-5  text-montserrat text-center rounded-full bg-gradient-to-r from-purple-900 to-purple-600 px-14 ">
+                                             <a href="#" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm  text-white font-bold  p-3.5 mt-5  text-montserrat text-center rounded-full bg-gradient-to-r from-purple-900 to-purple-600 px-14 ">
                                             Explora nuestros juegos!
-                                        </a>
+                                            </a>
                                     </div>
                                 </div>
                             </div>
-                    </div>
+                        </div>
                     </div>
                 </header>
             </div>
