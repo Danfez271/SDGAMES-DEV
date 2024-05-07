@@ -14,7 +14,7 @@ export default {
             '4.25': '-50%',
         },
         fontFamily: {
-            mons:["Montserrat" , "Arial", "sans-serif"]
+            Kanit:["Kanit" , "Arial", "sans-serif"]
         },
         screens: {
             xs: "300px",
