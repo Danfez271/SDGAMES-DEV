@@ -6,8 +6,8 @@
         <div>
             <div class="relative">
 
-                <header class="hero">
-                    <nav class="nav container font-bold" id="nav">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[800px] h-[60vw] ">
+                    <nav class="nav mx-auto justify-self-cente w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
                         <h2 class="nav__logo">
@@ -106,19 +106,16 @@
     </div>
 
     <div class="PlaystationSection flex bg-no-repeat">
-            <h2  class="pspluslogo justify-start pt-32 w-2/5 mx-20 ">
+        <div class=" flex flex-col w-2/5">
 
-                <img class=" " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+            <img class=" w-[35vw] " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
-                <br>
-                <span class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
-                    Disfruta de cientos de juegos de PS5, PS4, clásicos
-                    de PlayStation y beneficios imperdibles de tres
-                    planes de suscripción a precios excelentes que
-                    desatan el poder de tu consola PlayStation. </span>
-
-                <br>
-                <br>
+            
+            <p class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
+                Disfruta de cientos de juegos de PS5, PS4, clásicos
+                de PlayStation y beneficios imperdibles de tres
+                planes de suscripción a precios excelentes que
+                desatan el poder de tu consola PlayStation. 
 
                 <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold uppercase">
                     playstation plus deluxe
@@ -147,18 +144,18 @@
                     Prueba una selección de los títulos más importantes
                     con límite de tiempo para ayudarte a decidir tu
                     próxima experiencia de juego.</span>
-
-                <br>
-                <div class="flex">
-                    <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-20 ">
-                        <div class="flex 2xl: lg: md: xs: sm: ">
-                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
-                                Añadir Plan
-                            </a>
-                        </div>
+            </p>
+            <br>
+            <div class="flex">
+                <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-20 ">
+                    <div class="flex 2xl: lg: md: xs: sm: ">
+                        <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                            Añadir Plan
+                        </a>
                     </div>
                 </div>
-            </h2>
+            </div>
+        </div>
 
 
         <div class="grid-">
