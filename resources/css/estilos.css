@@ -189,10 +189,12 @@
         width: 100%;
         max-width: 1200px;
         margin: 20px;
-        display: flex;
+        display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-gap: 60px;
-        padding: 45px 0px;
+        padding: 45px ;
+        place-items: center;
+        align-items: center;
 
     }
 
