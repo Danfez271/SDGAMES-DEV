@@ -20,19 +20,19 @@
                         <ul class="nav__links ">
 
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Inicio</a>
+                                <a href="#" class="nav__link hover:text-[#02F2EB]">Inicio</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Catalogo</a>
+                                <a href="#" class="nav__link hover:text-[#02F2EB]">Catalogo</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Promociones</a>
+                                <a href="#" class="nav__link hover:text-[#02F2EB]">Promociones</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Nosotros</a>
+                                <a href="#" class="nav__link hover:text-[#02F2EB]">Nosotros</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Contacto</a>
+                                <a href="#" class="nav__link hover:text-[#02F2EB]">Contacto</a>
                             </li>
 
                         </ul>
@@ -180,39 +180,94 @@
             </div>
 
 
-        </div>
 
+        </div>
+    </div>
+
+    <div class="foot1 bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
+        <h2 class="text-8xl text-white mx-12 ">
+            <span class="font-bold">SDGames</span> <br> es diversion
+            <br>
+            <span class="text-xl font-light justify-center">
+                        ofreciendo un servicio rápido y eficiente
+                        en la venta de juegos.
+                    </span>
+
+            <div class="">
+                <div class=" flex-1 px-6 py-2 hover:fill-[#02F2EB] ">
+                    <button class="py-3   px-6 gap-6 font-semibold text-5xl flex w-max *:hover:fill-[#02F2EB]  justify-center items-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080]  hover:text-[#02F2EB] hover:fill-[#02F2EB] hover:bg-gradient-to-r hover:from-white hover:to-white ">
+                        <svg class="w-12 h-12 inline-flex fill-white   " id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.18 30.26">
+                            <g id="ELEMENTS">
+                                <g>
+                                    <path class="cls-1" d="m0,30.26l2.17-8.09c-1.23-2.22-1.87-4.7-1.87-7.22C.29,6.7,7,0,15.24,0s14.95,6.7,14.95,14.95-6.7,14.95-14.95,14.95c-2.47,0-4.92-.62-7.1-1.81L0,30.26Zm8.54-5.21l.51.31c1.88,1.12,4.02,1.71,6.19,1.71,6.68,0,12.12-5.44,12.12-12.12S21.92,2.83,15.24,2.83,3.12,8.26,3.12,14.95c0,2.21.61,4.38,1.77,6.28l.31.52-1.21,4.52,4.54-1.22Z"/>
+                                    <path class="cls-2" d="m20.8,17.02c-.62-.37-1.42-.78-2.14-.48-.56.23-.91,1.1-1.27,1.54-.18.23-.41.26-.69.15-2.09-.83-3.69-2.22-4.84-4.14-.2-.3-.16-.53.07-.81.35-.41.78-.87.88-1.43.09-.55-.16-1.2-.39-1.69-.29-.63-.62-1.52-1.25-1.88-.58-.33-1.34-.14-1.86.28-.89.72-1.32,1.86-1.31,2.98,0,.32.04.64.12.95.18.74.52,1.43.91,2.09.29.5.61.98.95,1.44,1.12,1.52,2.5,2.83,4.11,3.82.8.49,1.67.92,2.56,1.22,1,.33,1.9.68,2.99.47,1.14-.22,2.26-.92,2.71-2.01.13-.32.2-.69.13-1.03-.15-.71-1.11-1.13-1.69-1.47Z"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <span> Contactar</span>
+                    </button>
+                </div>
+            </div>
+        </h2>
     </div>
 
 
 
+    <footer class="pie-pagina bg-no-repeat w-full min-h-screen text-white">
+        <div class="grupo-1">
 
+            <div class="LOGO ">
+                <div class="box">
+                    <figure>
+                        <a href="">
+                            <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-20" alt="">
+                        </a>
+                    </figure>
+                </div>
+            </div>
 
-    <footer>
+            <div class="box font-light text-2xl mt-52">
 
-        <div class="foot1 bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
-                <h2 class="text-8xl text-white mx-12 ">
-                    <span class="font-bold">SDGames</span> <br> es diversion
-                    <br>
-                    <span class="text-xl font-light">
-                        ofreciendo un servicio rápido y eficiente
-                        en la venta de juegos.
-                    </span>
-                    <a href="">
+                <h4 class="text-[#02F2EB] font-semibold"> Accesos Rapido</h4>
+                <a href="">Inicio</a>
+                <br>
+                <a href="">Catalogo</a>
+                <br>
+                <a href="">Promociones</a>
+                <br>
+                <a href="">Contacto</a>
+
+            </div>
+
+            <div class="box font-light text-2xl mt-52 ">
+                <h4 class="text-[#02F2EB] font-semibold "> Otros productos</h4>
+                <a href="">Sdprimetv</a>
+                <br>
+                <a href="">Sdpanel</a>
+            </div>
+
+                <div class="flex h-16 w-16">
+                    <a href="#" class="mr-2 ">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
                     </a>
-                    <a href=""></a>
-                </h2>
+                    <a href="#" class="mr-2 ">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" alt="Facebook">
+                    </a>
+                    <a href="#" class="mr-2 ">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
+                    </a>
+                    <a href="#" class="mr-2 ">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
+                    </a>
+                </div>
 
+              </div>
 
-
+        <div class="grupo-2 text-4xl font-extralight text-center mt-28  ">
+            <small>SdGames Derechos reservados 2024</small>
         </div>
-
-        <div class="footfinal bg-no-repeat w-full min-h-screen">
-
-        </div>
-
-
     </footer>
+
 
 
 

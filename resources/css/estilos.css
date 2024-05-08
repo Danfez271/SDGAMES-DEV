@@ -173,14 +173,32 @@
         background-image: url('../../public/images/homepage/bannermission.png');
         background-position: center;
         background-size: cover;
+        min-height: 700px;
 
     }
 
-    .footfinal{
+    .pie-pagina{
         background-image: url('../../public/images/homepage/bannerfooter.png');
         background-position: center;
+        min-height: 700px;
         background-size: cover;
 
     }
+
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px;
+        display: flex;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 60px;
+        padding: 45px 0px;
+
+    }
+
+
+
+
+
 
 
