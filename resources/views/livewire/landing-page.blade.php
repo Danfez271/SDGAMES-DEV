@@ -6,7 +6,7 @@
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[800px] h-[60vw] ">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center ">
                     <nav class="nav mx-auto justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
@@ -164,24 +164,24 @@
 
             <div class="basis-3/5 grid grid-cols-3 justify-items-center items-end ">
 
-                <a class="w-[70%] pb-16" href="">
-                    <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Amazon Prime sdprimetv">
+                <a class="w-[80%] pb-[117px]" href="">
+                    <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                 </a>
 
-                <a class="w-[70%] pb-16" href="">
-                    <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="HBO Max sdprimetv">
+                <a class="w-[80%] pb-[117px]" href="">
+                    <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                 </a>
 
 
-                <a class="w-[70%] pb-16" href="">
-                    <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Apple Tv sdprimetv">
+                <a class="w-[80%] pb-[117px]" href="">
+                    <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                 </a>
 
             </div>
         </div>
 
     </div>
-    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
+    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center gap-7">
         <h2 class="text-8xl text-white mx-12 ">
             <span class="font-bold">SDGames</span> <br> es diversion
             <br>
@@ -210,79 +210,72 @@
 
 
 
-    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-[700px] text-white">
-        <div class="w-full max-w-[1200px] m-[20px] flex gap-[80px] px-[45px]">
+    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-[700px] text-white ">
 
-            <div class="LOGO ">
-                <div class="box">
-                    <figure>
-                        <a href="">
-                            <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-16 mt-12" alt="">
-                        </a>
-                    </figure>
+            <div class="flex items-center justify-between ">
+                <div class=" w-full basis-1/2 m-[20px] flex gap-[50px] px-[45px]">
+                    <div class="LOGO ">
+                        <div class="box">
+                            <figure>
+                                <a href="">
+                                    <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-16 mt-12" alt="">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="box font-light text-2xl mt-52 leading-10 ">
+
+                        <h4 class="text-[#02F2EB] font-semibold"> Accesos Rapido</h4>
+                        <a href="">Inicio</a>
+                        <br>
+                        <a href="">Catalogo</a>
+                        <br>
+                        <a href="">Promociones</a>
+                        <br>
+                        <a href="">Contacto</a>
+
+                    </div>
+
+                    <div class="box font-light text-2xl mt-52 leading-10 ml-5 ">
+                        <h4 class="text-[#02F2EB] font-semibold "> Otros productos</h4>
+                        <a href="">Sdprimetv</a>
+                        <br>
+                        <a href="">Sdpanel</a>
+                    </div>
+                </div>
+
+                <div class="w-full basis-1/2 m-[5px] flex gap-[95px] px-[15px] h-full  justify-center justify-items-center pt-52">
+
+
+                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
+                    </a>
+
+
+                    <a href="#" class="h-[100px] w-[40px] flex items-center">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}"  alt="Facebook" >
+                    </a>
+
+
+                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
+                    </a>
+
+
+
+                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
+                    </a>
+
+
                 </div>
             </div>
 
-            <div class="box font-light text-2xl mt-52 leading-10">
-
-                <h4 class="text-[#02F2EB] font-semibold"> Accesos Rapido</h4>
-                <a href="">Inicio</a>
-                <br>
-                <a href="">Catalogo</a>
-                <br>
-                <a href="">Promociones</a>
-                <br>
-                <a href="">Contacto</a>
-
-            </div>
-
-            <div class="box font-light text-2xl mt-52 leading-10 ml-5 ">
-                <h4 class="text-[#02F2EB] font-semibold "> Otros productos</h4>
-                <a href="">Sdprimetv</a>
-                <br>
-                <a href="">Sdpanel</a>
-            </div>
-
-                <div class=" h-8 w-8 ml-28 grid-cols-4 ">
-
-                    <div>
-                        <a href="#" class="mr-2 ">
-                            <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="#" class="mr-2 ">
-                            <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" class="w-10 h-8" alt="Facebook" >
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="#" class="mr-2 ">
-                            <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="#" class="mr-2    ">
-                            <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
-                        </a>
-                    </div>
-
-                </div>
-
-              </div>
-
-        <div class="grupo-2 text-4xl  text-center mt-56 font-extralight">
+        <div class="grupo-2 text-4xl  text-center mt-52 pb-10 font-extralight">
             <small>SdGames Derechos reservados 2024</small>
         </div>
     </footer>
-
-
-
-
-
-
 </div>
 
 
