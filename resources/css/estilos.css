@@ -135,55 +135,15 @@
     }
 }
 
-    .TextoB{
-        box-sizing: border-box;
-        max-width: 1440px;
-        width: 100%;
-        margin: 0 auto;
-        color: #ffffff;
-    }
 
-    .catalog{
-        background-color: #041333;
-    }
 
-    .PlaystationSection{
-         background-image: url('../../public/images/homepage/psplus/psplusbanner.png');
-         background-size: 100%;
-         min-height: 1280px;
 
-         color: #ffffff;
-         max-width: 100%;
-         height: auto;
-         object-fit: cover;
-     }
 
-    .foot1{
-        background-image: url('../../public/images/homepage/bannermission.png');
-        background-position: center;
-        background-size: cover;
-        min-height: 700px;
 
-    }
 
-    .pie-pagina{
-        background-image: url('../../public/images/homepage/bannerfooter.png');
-        background-position: center;
-        min-height: 700px;
-        background-size: cover;
 
-    }
 
-    .pie-pagina .grupo-1{
-        width: 100%;
-        max-width: 1200px;
-        margin: 20px;
-        display: flex;
-        grid-template-columns: repeat(4,1fr);
-        grid-gap: 60px;
-        padding: 45px 0px;
 
-    }
 
 
 
