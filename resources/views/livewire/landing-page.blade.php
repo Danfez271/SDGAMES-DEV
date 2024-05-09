@@ -6,8 +6,8 @@
         <div>
             <div class="relative">
 
-                <header class="hero">
-                    <nav class="nav container font-bold" id="nav">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[800px] h-[60vw] ">
+                    <nav class="nav mx-auto justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
                         <h2 class="nav__logo">
@@ -49,7 +49,7 @@
 
                     </nav>
                     <div>
-                        <div class="TextoB">
+                        <div class="max-w-[1440px] w-full mx-auto justify-self-center text-white">
                             <div class=" sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:ml-5 md:mx-auto 2xl:ml-16 lg:ml-16 md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10 " id="TBienvenida">
                                 <h1 class="xl:text-7xl 7xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold" >
                                     ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
@@ -105,20 +105,17 @@
         </div>
     </div>
 
-    <div class="PlaystationSection flex bg-no-repeat">
-            <h2  class="pspluslogo justify-start pt-32 w-2/5 mx-20 ">
+    <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-[100%] min-h-[1280px] max-w-full h-auto flex bg-no-repeat">
+        <div class=" flex flex-col w-2/5">
 
-                <img class=" " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+            <img class=" w-[35vw] " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
-                <br>
-                <span class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
-                    Disfruta de cientos de juegos de PS5, PS4, clásicos
-                    de PlayStation y beneficios imperdibles de tres
-                    planes de suscripción a precios excelentes que
-                    desatan el poder de tu consola PlayStation. </span>
 
-                <br>
-                <br>
+            <p class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
+                Disfruta de cientos de juegos de PS5, PS4, clásicos
+                de PlayStation y beneficios imperdibles de tres
+                planes de suscripción a precios excelentes que
+                desatan el poder de tu consola PlayStation.
 
                 <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold uppercase">
                     playstation plus deluxe
@@ -147,18 +144,18 @@
                     Prueba una selección de los títulos más importantes
                     con límite de tiempo para ayudarte a decidir tu
                     próxima experiencia de juego.</span>
-
-                <br>
-                <div class="flex">
-                    <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-20 ">
-                        <div class="flex 2xl: lg: md: xs: sm: ">
-                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
-                                Añadir Plan
-                            </a>
-                        </div>
+            </p>
+            <br>
+            <div class="flex">
+                <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-20 ">
+                    <div class="flex 2xl: lg: md: xs: sm: ">
+                        <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                            Añadir Plan
+                        </a>
                     </div>
                 </div>
-            </h2>
+            </div>
+        </div>
 
 
         <div class="grid-">
@@ -184,7 +181,7 @@
         </div>
     </div>
 
-    <div class="foot1 bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
+    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
         <h2 class="text-8xl text-white mx-12 ">
             <span class="font-bold">SDGames</span> <br> es diversion
             <br>
@@ -213,8 +210,8 @@
 
 
 
-    <footer class="pie-pagina bg-no-repeat w-full min-h-screen text-white">
-        <div class="grupo-1">
+    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-screen text-white">
+        <div class="w-full max-w-[1200px] m-[20px] flex gap-[60px] px-[45px]">
 
             <div class="LOGO ">
                 <div class="box">
