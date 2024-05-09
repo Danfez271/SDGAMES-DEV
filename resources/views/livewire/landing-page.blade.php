@@ -105,17 +105,20 @@
         </div>
     </div>
 
-    <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-[100%] min-h-[1280px] max-w-full h-auto flex bg-no-repeat">
+    <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)]  bg-right-top min-h-[1280px] max-w-full h- flex bg-no-repeat">
         <div class=" flex flex-col w-2/5">
 
-            <img class=" w-[35vw] " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+            <img class=" w-[45vw] ml-14 mt-28 " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
 
-            <p class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
+            <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light ml-20 mt-8">
                 Disfruta de cientos de juegos de PS5, PS4, clásicos
                 de PlayStation y beneficios imperdibles de tres
                 planes de suscripción a precios excelentes que
                 desatan el poder de tu consola PlayStation.
+
+                <br>
+                <br>
 
                 <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold uppercase">
                     playstation plus deluxe
@@ -124,7 +127,7 @@
                 <br>
                 <br>
 
-                <span class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
+                <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light">
                     Disfruta de todos los beneficios de PlayStation Plus
                     de los planes Extra y Essential, además de
                     beneficios exclusivos, como pruebas de juegos y
@@ -140,14 +143,13 @@
                 <br>
                 <br>
 
-                <span class="text-black 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl  font-light">
+                <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl font-light">
                     Prueba una selección de los títulos más importantes
                     con límite de tiempo para ayudarte a decidir tu
                     próxima experiencia de juego.</span>
             </p>
-            <br>
             <div class="flex">
-                <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-20 ">
+                <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 ml-20">
                     <div class="flex 2xl: lg: md: xs: sm: ">
                         <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
                             Añadir Plan
