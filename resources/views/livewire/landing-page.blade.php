@@ -105,84 +105,82 @@
         </div>
     </div>
 
-    <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)]  bg-right-top min-h-[1280px] max-w-full h- flex bg-no-repeat">
-        <div class=" flex flex-col w-2/5">
+    <div class="flex flex-row">
 
-            <img class=" w-[45vw] ml-14 mt-28 " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+        <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-right-top min-h-[1280px] max-w-full h- flex bg-no-repeat">
+            <div class=" flex flex-col basis-2/5">
+
+                <img class=" w-[45vw] ml-14 mt-28 " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
 
-            <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light ml-20 mt-8">
-                Disfruta de cientos de juegos de PS5, PS4, clásicos
-                de PlayStation y beneficios imperdibles de tres
-                planes de suscripción a precios excelentes que
-                desatan el poder de tu consola PlayStation.
+                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light ml-20 mt-8">
+                    Disfruta de cientos de juegos de PS5, PS4, clásicos
+                    de PlayStation y beneficios imperdibles de tres
+                    planes de suscripción a precios excelentes que
+                    desatan el poder de tu consola PlayStation.
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold uppercase">
-                    playstation plus deluxe
-                </span>
+                    <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold uppercase">
+                        playstation plus deluxe
+                    </span>
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light">
-                    Disfruta de todos los beneficios de PlayStation Plus
-                    de los planes Extra y Essential, además de
-                    beneficios exclusivos, como pruebas de juegos y
-                    catálogo de clásicos. </span>
+                    <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light">
+                        Disfruta de todos los beneficios de PlayStation Plus
+                        de los planes Extra y Essential, además de
+                        beneficios exclusivos, como pruebas de juegos y
+                        catálogo de clásicos. </span>
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold ">
-                    Pruebas de juegos
-                </span>
+                    <span class="text-white 2xl:text-6xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-xl font-bold ">
+                        Pruebas de juegos
+                    </span>
 
-                <br>
-                <br>
+                    <br>
+                    <br>
 
-                <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl font-light">
-                    Prueba una selección de los títulos más importantes
-                    con límite de tiempo para ayudarte a decidir tu
-                    próxima experiencia de juego.</span>
-            </p>
-            <div class="flex">
-                <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 ml-20">
-                    <div class="flex 2xl: lg: md: xs: sm: ">
-                        <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
-                            Añadir Plan
-                        </a>
+                    <span class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl font-light">
+                        Prueba una selección de los títulos más importantes
+                        con límite de tiempo para ayudarte a decidir tu
+                        próxima experiencia de juego.</span>
+                </p>
+                <div class="flex">
+                    <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 ml-20">
+                        <div class="flex 2xl: lg: md: xs: sm: ">
+                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                                Añadir Plan
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="grid-">
+            <div class="basis-3/5 grid grid-cols-3 justify-items-center items-end ">
 
-            <div class="2xl:p-2 lg:p-72 md:p-72 rounded-lg hover:p-0 2xl:w-1/5 lg:w-3/5 md:w-3/5 xs:w-3/12 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
-                <a href="">
-                    <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="HBO Max sdprimetv">
-                </a>
-            </div>
-            <div class="2xl:p-2 lg:p-2 md:p-2 rounded-lg hover:p-0 2xl:w-1/5 lg:w-1/5 md:w-1/3 xs:w-1/3 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
-                <a href="">
+                <a class="w-[70%] pb-16" href="">
                     <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Amazon Prime sdprimetv">
                 </a>
-            </div>
-            <div class="2xl:p-2 lg:p-2 md:p-2 rounded-lg hover:p-0 2xl:w-1/5 lg:w-1/5 md:w-1/3 xs:w-1/3 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
-                <a href="">
+
+                <a class="w-[70%] pb-16" href="">
+                    <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="HBO Max sdprimetv">
+                </a>
+
+
+                <a class="w-[70%] pb-16" href="">
                     <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Apple Tv sdprimetv">
                 </a>
+
             </div>
-
-
-
         </div>
-    </div>
 
+    </div>
     <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full min-h-screen flex justify-start items-center gap-7">
         <h2 class="text-8xl text-white mx-12 ">
             <span class="font-bold">SDGames</span> <br> es diversion
