@@ -264,7 +264,7 @@
                     </div>
 
                     <div>
-                        <a href="#" class="mr-2 ">
+                        <a href="#" class="mr-2    ">
                             <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
                         </a>
                     </div>
