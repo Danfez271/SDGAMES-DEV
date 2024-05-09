@@ -210,20 +210,20 @@
 
 
 
-    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-screen text-white">
-        <div class="w-full max-w-[1200px] m-[20px] flex gap-[60px] px-[45px]">
+    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-[700px] text-white">
+        <div class="w-full max-w-[1200px] m-[20px] flex gap-[80px] px-[45px]">
 
             <div class="LOGO ">
                 <div class="box">
                     <figure>
                         <a href="">
-                            <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-20" alt="">
+                            <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-16 mt-12" alt="">
                         </a>
                     </figure>
                 </div>
             </div>
 
-            <div class="box font-light text-2xl mt-52">
+            <div class="box font-light text-2xl mt-52 leading-10">
 
                 <h4 class="text-[#02F2EB] font-semibold"> Accesos Rapido</h4>
                 <a href="">Inicio</a>
@@ -236,31 +236,44 @@
 
             </div>
 
-            <div class="box font-light text-2xl mt-36 ">
+            <div class="box font-light text-2xl mt-52 leading-10 ml-5 ">
                 <h4 class="text-[#02F2EB] font-semibold "> Otros productos</h4>
                 <a href="">Sdprimetv</a>
                 <br>
                 <a href="">Sdpanel</a>
             </div>
 
-                <div class=" h-8 w-8 ml-2 ">
-                    <a href="#" class="mr-2 ">
-                        <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
-                    </a>
-                    <a href="#" class="mr-2 ">
-                        <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" class="w-10 h-8" alt="Facebook" >
-                    </a>
-                    <a href="#" class="mr-2 ">
-                        <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
-                    </a>
-                    <a href="#" class="mr-2 ">
-                        <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
-                    </a>
+                <div class=" h-8 w-8 ml-28 grid-cols-4 ">
+
+                    <div>
+                        <a href="#" class="mr-2 ">
+                            <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#" class="mr-2 ">
+                            <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" class="w-10 h-8" alt="Facebook" >
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#" class="mr-2 ">
+                            <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#" class="mr-2 ">
+                            <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
+                        </a>
+                    </div>
+
                 </div>
 
               </div>
 
-        <div class="grupo-2 text-4xl font-extralight text-center mt-28  ">
+        <div class="grupo-2 text-4xl  text-center mt-56 font-extralight">
             <small>SdGames Derechos reservados 2024</small>
         </div>
     </footer>
