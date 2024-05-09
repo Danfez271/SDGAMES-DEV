@@ -236,19 +236,19 @@
 
             </div>
 
-            <div class="box font-light text-2xl mt-52 ">
+            <div class="box font-light text-2xl mt-36 ">
                 <h4 class="text-[#02F2EB] font-semibold "> Otros productos</h4>
                 <a href="">Sdprimetv</a>
                 <br>
                 <a href="">Sdpanel</a>
             </div>
 
-                <div class="flex h-16 w-16">
+                <div class=" h-8 w-8 ml-2 ">
                     <a href="#" class="mr-2 ">
                         <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
                     </a>
                     <a href="#" class="mr-2 ">
-                        <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" alt="Facebook">
+                        <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}" class="w-10 h-8" alt="Facebook" >
                     </a>
                     <a href="#" class="mr-2 ">
                         <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
