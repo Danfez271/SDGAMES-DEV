@@ -6,7 +6,7 @@
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center ">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[70vw] ">
                     <nav class="nav mx-auto justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
@@ -81,7 +81,7 @@
             </h3>
         </div>
 
-        <div class="grid 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-1 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 md:grid-cols-3 xs:gap-2 2xl:flex-none lg:flex-none md:flex xs:flex sm:flex xs:flex-row sm:flex-row xs:flex-wrap sm:flex-wrap sm:gap-2 xs:justify-center sm:justify-center  py-7" id="catalog_service">
+        <div class="grid 2xl:gap-2 xl:gap-2 lg:gap-2 md:gap-6 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 md:grid-cols-3 xs:gap-2 2xl:flex-none lg:flex-none md:flex xs:flex sm:flex xs:flex-row sm:flex-row xs:flex-wrap sm:flex-wrap sm:gap-2 xs:justify-center sm:justify-center  py-7 " id="catalog_service">
             <div class="2xl:p-2 lg:p-2 md:p-2 rounded-lg hover:p-0 2xl:w-1/5 lg:w-1/5 md:w-1/3 xs:w-1/3 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
                 <a href="/streaming/netflix-premium">
                     <img src="{{asset('images/homepage/mostpopular/fifa.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-150 " alt="Netflix Premium sdprimetv">
@@ -107,10 +107,10 @@
 
     <div class="flex flex-row">
 
-        <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-right-top min-h-[1280px] max-w-full h- flex bg-no-repeat">
+        <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-right-top min-h-[1280px] max-w-full flex bg-no-repeat lg:min-h-[900px] lg:bg-cover md:bg-right ">
             <div class=" flex flex-col basis-2/5">
 
-                <img class=" w-[45vw] ml-14 mt-28 " src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+                <img class=" w-[45vw] ml-14 mt-28 xl:ml-14 lg:ml-2" src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
 
                 <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light ml-20 mt-8">
@@ -153,7 +153,7 @@
                 <div class="flex">
                     <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 ml-20">
                         <div class="flex 2xl: lg: md: xs: sm: ">
-                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 md:px-28 md:py-6  hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
                                 Añadir Plan
                             </a>
                         </div>
@@ -162,18 +162,18 @@
             </div>
 
 
-            <div class="basis-3/5 grid grid-cols-3 justify-items-center items-end ">
+            <div class="basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 lg:grid-cols-1 xl:justify-items-center lg:justify-items-center  lg:items-end  md:grid-rows-1 md:justify-center md:items-center ">
 
-                <a class="w-[80%] pb-[117px]" href="">
+                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%] " href="">
                     <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                 </a>
 
-                <a class="w-[80%] pb-[117px]" href="">
+                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
                     <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                 </a>
 
 
-                <a class="w-[80%] pb-[117px]" href="">
+                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
                     <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                 </a>
 
@@ -181,9 +181,9 @@
         </div>
 
     </div>
-    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center ">
-        <h1 class=" text-white mx-28  ">
-            <span class="font-bold text-9xl">SDGames</span> <br> <span class="font-normal text-7xl leading-[2]"> es diversion </span>
+    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center lg:min-h-[500px] md:min-h-[400px] ">
+        <h1 class=" text-white mx-28 lg:mt-6 md:mt-12 md:mb-12 ">
+            <span class="font-bold text-9xl md:text-8xl">SDGames</span> <br> <span class="font-normal text-7xl leading-[2]"> es diversion </span>
             <br>
             <span class="text-3xl font-light justify-center leading-1">
                         ofreciendo un servicio rápido y eficiente <br>
@@ -210,15 +210,15 @@
 
 
 
-    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-[700px] text-white ">
+    <footer class="bg-[url(../../public/images/homepage/bannerfooter.png)] bg-center bg-cover bg-no-repeat w-full min-h-[700px] text-white">
 
-            <div class="flex items-center justify-between ">
-                <div class=" w-full basis-1/2 m-[20px] flex gap-[50px] px-[45px]">
+            <div class="flex items-center justify-between  ">
+                <div class=" w-full basis-1/2 m-[20px] flex gap-[50px] px-[45px] lg:gap-[35px] lg:px-[30px] md:gap-[25px] md:px-[22px]">
                     <div class="LOGO ">
                         <div class="box">
                             <figure>
                                 <a href="">
-                                    <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-16 mt-12" alt="">
+                                    <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" class="h-40 w-40 ml-16 mt-12 lg:ml-11" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -245,26 +245,26 @@
                     </div>
                 </div>
 
-                <div class="w-full basis-1/2 m-[5px] flex gap-[95px] px-[15px] h-full  justify-center justify-items-center pt-52">
+                <div class="w-full basis-1/2 m-[5px] flex gap-[95px]   h-full  justify-center justify-items-center pt-52 lg:m-0 lg:gap-[65px] md:gap-[47px] ">
 
 
-                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                    <a href="#" class="h-[100px] w-[70px] flex items-center lg:h-[70px] lg:w-[49px] md:h-[50px] md:w-[35px]">
                         <img src="{{ asset('images/homepage/iconsocial/svg/telegram.svg') }}" alt="Telegram">
                     </a>
 
 
-                    <a href="#" class="h-[100px] w-[40px] flex items-center">
+                    <a href="#" class="h-[100px] w-[40px] flex items-center lg:h-[70px] lg:w-[28px] md:h-[50px] md:w-[20px]">
                         <img src="{{ asset('images/homepage/iconsocial/svg/facebokk.svg') }}"  alt="Facebook" >
                     </a>
 
 
-                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                    <a href="#" class="h-[100px] w-[70px] flex items-center lg:h-[70px] lg:w-[49px] md:h-[50px] md:w-[35px]">
                         <img src="{{ asset('images/homepage/iconsocial/svg/ig.svg') }}" alt="Instagram">
                     </a>
 
 
 
-                    <a href="#" class="h-[100px] w-[70px] flex items-center">
+                    <a href="#" class="h-[100px] w-[70px]  flex items-center lg:h-[70px] lg:w-[49px] md:h-[50px] md:w-[35px]">
                         <img src="{{ asset('images/homepage/iconsocial/svg/tiktiok.svg') }}" alt="Tik Tok">
                     </a>
 
@@ -272,7 +272,7 @@
                 </div>
             </div>
 
-        <div class="grupo-2 text-4xl  text-center mt-52 pb-10 font-extralight">
+        <div class="grupo-2 text-4xl  text-center mt-52 pb-10 font-extralight md:mt-28">
             <small>SdGames Derechos reservados 2024</small>
         </div>
     </footer>
