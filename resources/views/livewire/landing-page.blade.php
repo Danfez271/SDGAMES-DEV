@@ -108,10 +108,10 @@
 
     <div class="flex flex-row">
 
-        <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] bg-right-top min-h-[1280px] max-w-full flex bg-no-repeat lg:min-h-[900px] lg:bg-cover md:bg-right ">
+        <div class="bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] xl:bg-right-top min-h-[1280px] max-w-full flex lg:flex-row md:flex-col  bg-no-repeat lg:min-h-[900px] lg:bg-cover md:bg-right py-28 ">
             <div class=" flex flex-col basis-2/5">
 
-                <img class=" w-[45vw] ml-14 mt-28 xl:ml-14 lg:ml-2" src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+                <img class=" w-[45vw] ml-14  xl:ml-14 lg:ml-2" src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
 
 
                 <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-xl  font-light ml-20 mt-8">
@@ -163,18 +163,18 @@
             </div>
 
 
-            <div class="basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 lg:grid-cols-1 xl:justify-items-center lg:justify-items-center  lg:items-end  md:grid-rows-1 md:justify-center md:items-center ">
+            <div class="basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center ">
 
-                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%] " href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%] " href="">
                     <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                 </a>
 
-                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
                     <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                 </a>
 
 
-                <a class="xl:w-[80%] lg:w-[55%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
                     <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                 </a>
 
@@ -182,8 +182,8 @@
         </div>
 
     </div>
-    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center lg:min-h-[500px] md:min-h-[400px] ">
-        <h1 class=" text-white mx-28 lg:mt-6 md:mt-12 md:mb-12 ">
+    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] py-40 bg-no-repeat w-full  flex justify-start items-center lg:min-h-[500px] md:min-h-[400px] ">
+        <h1 class=" text-white mx-28   md:mb-12 ">
             <span class="font-bold text-9xl md:text-8xl">SDGames</span> <br> <span class="font-normal text-7xl leading-[2]"> es diversion </span>
             <br>
             <span class="text-3xl font-light justify-center leading-1">
