@@ -151,7 +151,7 @@
                         con límite de tiempo para ayudarte a decidir tu
                         próxima experiencia de juego.</span>
                 </p>
-                <div class="flex">
+                <div class="flex xl:pb-10 pb-0 ">
                     <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 ml-20">
                         <div class="flex 2xl: lg: md: xs: sm: ">
                             <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-sm w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] px-56 py-12 md:px-28 md:py-6  hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
@@ -165,16 +165,16 @@
 
             <div class="basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center ">
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%] " href="">
+                <a class="xl:w-[80%] lg:w-[80%]  md:w-[70%] " href="">
                     <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                 </a>
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%]  md:w-[70%]" href="">
                     <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                 </a>
 
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%]  md:w-[70%]" href="">
                     <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                 </a>
 
