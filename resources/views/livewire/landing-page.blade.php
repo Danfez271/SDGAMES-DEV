@@ -181,18 +181,18 @@
         </div>
 
     </div>
-    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center gap-7">
-        <h2 class="text-8xl text-white mx-12 ">
-            <span class="font-bold">SDGames</span> <br> es diversion
+    <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px] bg-no-repeat w-full  flex justify-start items-center ">
+        <h1 class=" text-white mx-28  ">
+            <span class="font-bold text-9xl">SDGames</span> <br> <span class="font-normal text-7xl leading-[2]"> es diversion </span>
             <br>
-            <span class="text-xl font-light justify-center">
-                        ofreciendo un servicio rápido y eficiente
+            <span class="text-3xl font-light justify-center leading-1">
+                        ofreciendo un servicio rápido y eficiente <br>
                         en la venta de juegos.
                     </span>
 
             <div class="">
-                <div class=" flex-1 px-6 py-2 hover:fill-[#02F2EB] ">
-                    <button class="py-3   px-6 gap-6 font-semibold text-5xl flex w-max *:hover:fill-[#02F2EB]  justify-center items-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080]  hover:text-[#02F2EB] hover:fill-[#02F2EB] hover:bg-gradient-to-r hover:from-white hover:to-white ">
+                <div class=" flex-1 px-1 py-6 hover:fill-[#02F2EB] ">
+                    <button class="py-4   px-6 gap-6 font-semibold text-5xl flex w-max *:hover:fill-[#02F2EB]  justify-center items-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080]  hover:text-[#02F2EB] hover:fill-[#02F2EB] hover:bg-gradient-to-r hover:from-white hover:to-white ">
                         <svg class="w-12 h-12 inline-flex fill-white   " id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.18 30.26">
                             <g id="ELEMENTS">
                                 <g>
@@ -205,7 +205,7 @@
                     </button>
                 </div>
             </div>
-        </h2>
+        </h1>
     </div>
 
 
