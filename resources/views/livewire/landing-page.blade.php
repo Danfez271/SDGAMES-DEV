@@ -165,16 +165,16 @@
 
             <div class="basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center ">
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%] " href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%] " href="">
                     <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                 </a>
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%]" href="">
                     <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                 </a>
 
 
-                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[35%]" href="">
+                <a class="xl:w-[80%] lg:w-[80%] xl:pb-[117px] lg:pb-10 md:w-[70%]" href="">
                     <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-32 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                 </a>
 
