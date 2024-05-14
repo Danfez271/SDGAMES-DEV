@@ -65,6 +65,7 @@
     right: 0;
     padding: 0;
 
+
     display: grid;
     align-content: center;
     gap: 1.5em;
@@ -119,7 +120,7 @@
         padding: 0;
         background-color: unset;
         position: unset;
-        gap: 1.5em;
+        gap: 2.5em;
         grid-auto-flow: column;
 
 
@@ -130,7 +131,7 @@
     }
 
     .nav__link {
-        font-size: 1rem;
+        font-size: 20px;
         letter-spacing: normal;
     }
 }

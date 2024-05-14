@@ -6,8 +6,8 @@
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[35vw] ">
-                    <nav class="nav mx-auto justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[35vw]  ">
+                    <nav class="nav mx-24 justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
                         <h2 class="nav__logo">
@@ -28,9 +28,6 @@
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__link hover:text-[#02F2EB]">Promociones</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link hover:text-[#02F2EB]">Nosotros</a>
                             </li>
                             <li class="nav__item">
                                 <a href="#" class="nav__link hover:text-[#02F2EB]">Contacto</a>
