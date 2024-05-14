@@ -6,7 +6,7 @@
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[40vw] ">
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[35vw] ">
                     <nav class="nav mx-auto justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
 
 
@@ -78,7 +78,7 @@
         <div class=" pt-2 text-center justify-center pr-12 pl-12 lg:mt-20 md:mt-52 ">
             <h2 class="text-white 2xl:text-6xl xl:text-6xl lg:text-4xl sm:text-5xl xs:text-5xl mb-4">
                 Juegos mas populares</h2>
-            <h3 class="text-white 2xl:text-xl xl:text-xl lg:text-xl sm:text-xl xs:text-xl mb-4 font-light ">
+            <h3 class="text-white 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-2xl xs:text-xl mb-4 font-light ">
                 Venta y distribución de los juegos más populares del mercado.
             </h3>
         </div>
@@ -95,7 +95,7 @@
                 </a>
             </div>
             <div class="2xl:p-2 lg:p-2 md:p-2 rounded-lg hover:p-0 2xl:w-1/5 lg:w-1/5 md:w-1/3 xs:w-1/3 sm:w-1/3 transition-all 2xl:-ml-0 xl:-ml-0 lg:-ml-0 md:-ml-1 xs:-ml-1 sm:-ml-1 xs:p-1 sm:p-1" id="service_item">
-                <a href="/streaming/amazon-prime">
+                <a href="/gtav">
                     <img src="{{asset('images/homepage/mostpopular/gta.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-40 rounded-lg hover:brightness-150 " alt="Amazon Prime sdprimetv">
                 </a>
             </div>
@@ -194,8 +194,8 @@
 
             <div class="">
                 <div class=" flex-1 px-1 py-6 hover:fill-[#02F2EB] ">
-                    <button class="sm:py-4   sm:px-6 xs:py-2 xs:px-2 gap-6 font-semibold text-5xl xs:text-4xl flex w-max *:hover:fill-[#02F2EB]  justify-center items-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080]  hover:text-[#02F2EB] hover:fill-[#02F2EB] hover:bg-gradient-to-r hover:from-white hover:to-white ">
-                        <svg class="w-12 h-12 inline-flex fill-white   " id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.18 30.26">
+                    <button class="sm:py-4   sm:px-6 xs:py-2 xs:px-2 gap-4 font-semibold sm:text-5xl xs:text-3xl flex w-max *:hover:fill-[#02F2EB]  justify-center items-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080]  hover:text-[#02F2EB] hover:fill-[#02F2EB] hover:bg-gradient-to-r hover:from-white hover:to-white ">
+                        <svg class="sm:w-12 sm:h-12 xs:w-8 xs:h-8 inline-flex fill-white xs:ml-3  " id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.18 30.26">
                             <g id="ELEMENTS">
                                 <g>
                                     <path class="cls-1" d="m0,30.26l2.17-8.09c-1.23-2.22-1.87-4.7-1.87-7.22C.29,6.7,7,0,15.24,0s14.95,6.7,14.95,14.95-6.7,14.95-14.95,14.95c-2.47,0-4.92-.62-7.1-1.81L0,30.26Zm8.54-5.21l.51.31c1.88,1.12,4.02,1.71,6.19,1.71,6.68,0,12.12-5.44,12.12-12.12S21.92,2.83,15.24,2.83,3.12,8.26,3.12,14.95c0,2.21.61,4.38,1.77,6.28l.31.52-1.21,4.52,4.54-1.22Z"/>
