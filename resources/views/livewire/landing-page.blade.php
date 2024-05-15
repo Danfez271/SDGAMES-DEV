@@ -6,9 +6,8 @@
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[35vw]  ">
-                    <nav class="nav mx-24 justify-self-center w-11/12 max-w-[1200px] truncate font-bold" id="nav">
-
+                <header class="bg-[url(../../public/images/homepage/banner.png)] bg-cover min-h-[600px] h-[20vw] bg-center md:min-h-[35vw] sm:pt-2">
+                    <nav class="nav sm:mx-24  mx-16 justify-self-center  max-w-[1200px] truncate font-bold flex " id="nav">
 
                         <h2 class="nav__logo">
                             <a href="">
@@ -71,7 +70,7 @@
     </div>
 
 
-    <div class="grid grid-cols-1 bg-[#041333]" id="catalog">
+    <div class="grid grid-cols-1 bg-[#041333] xl:pt-0 md:pt-12" id="catalog">
         <div class=" pt-2 text-center justify-center pr-12 pl-12 lg:mt-20 md:mt-52 ">
             <h2 class="text-white 2xl:text-6xl xl:text-6xl lg:text-4xl sm:text-5xl xs:text-5xl mb-4">
                 Juegos mas populares</h2>
