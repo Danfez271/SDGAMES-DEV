@@ -87,7 +87,7 @@
 
             </div>
             <div>
-                <iframe class="lg:w-[90%] lg:h-[460px] sm:mt-44 ml-4 mr-2 sm:w-[90%] sm:h-[400px] sm:ml-12 sm:mr-4 lg:ml-4 xs:mx-[10vw] xs:mt-32 xs:w-[80%] xs:h-[200px]     " src="https://www.youtube.com/embed/hvoD7ehZPcM?si=rezyiKSlN0kAITy7&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="lg:w-[90%] lg:h-[460px] sm:mt-44 ml-4 mr-2 sm:w-[90%] sm:h-[400px] sm:ml-12 sm:mr-4 lg:ml-4 xs:mx-[10vw] xs:mt-32 xs:w-[80%] xs:h-[200px]     " src="https://www.youtube.com/embed/hvoD7ehZPcM?si=rezyiKSlN0kAITy7&amp;start=1&autoplay=1&mute=1&controls=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
 
