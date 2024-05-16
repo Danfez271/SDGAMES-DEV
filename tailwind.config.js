@@ -7,6 +7,9 @@ export default {
   'node_modules/preline/dist/*.js',],
   theme: {
     extend: {
+        lineHeight: {
+            'extra-tight': '3rem',
+        },
         height:{
             '128': '10vh'
         },

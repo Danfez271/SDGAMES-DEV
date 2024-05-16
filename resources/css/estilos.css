@@ -69,7 +69,7 @@
 
     display: grid;
     align-content: center;
-    gap: 1.5em;
+    gap: 2.5em;
     padding-left: 15%;
 
     transform: var(--state-menu);
@@ -137,3 +137,29 @@
         letter-spacing: normal;
     }
 }
+
+.backgame{
+    background-image: url("../../public/images/homepage/pagpopulares/bannergtapagjuego.png");
+    position: relative;
+
+}
+@media (min-width:768px) {
+
+
+
+    .backgame::before{
+        position: absolute;
+        content:"";
+        inset: 0;
+        background-color: rgba(0,0,0,.50);
+
+    }
+
+    .nav{
+        color: white;
+        position: relative;
+    }
+}
+
+
+

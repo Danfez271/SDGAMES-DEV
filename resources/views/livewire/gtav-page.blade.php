@@ -1,15 +1,17 @@
-<div class="font-Kanit bg-[#000000]">
-   <div class="grid grid-cols-1">
+<div class="font-Kanit bg-[#000000] ">
+   <div class="grid grid-cols-1 ">
         <div>
             <div class="relative">
 
-                <header class="bg-[url(../../public/images/homepage/pagpopulares/bannergtapagjuego.png)] lg:bg-cover  min-h-[800px] h-[20vw] bg-center md:min-h-[40vw] md:bg-cover xs:bg-cover xs bg-no-repeat xs:min-h-[600px] " >
-                    <div class="bg-black opacity-50 h-full ">
+                <header class="backgame  lg:bg-cover  min-h-[800px] h-[20vw] bg-center md:min-h-[40vw] md:bg-cover xs:bg-cover xs bg-no-repeat xs:min-h-[600px]  " >
+                    <div class=" ">
+{{--                     bg-[url(../../public/images/homepage/pagpopulares/bannergtapagjuego.png)]      bg-black opacity-50 h-full   --}}
 
-                        <nav class="nav sm:mx-20 justify-self-center xs:mx-[20%]  max-w-[1200px] truncate font-bold  " id="nav">
+
+                        <nav class="nav sm:mx-20 justify-self-center xs:mx-[20%]  max-w-[1200px] truncate font-bold   " id="nav">
 
 
-                            <h2 class="nav__logo ">
+                            <h2 class="nav__logo    ">
                                 <a href="">
                                     <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" alt="" class="h-28 w-28 ">
                                 </a>
@@ -20,20 +22,21 @@
                             <ul class="nav__links  ">
 
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link ">Inicio</a>
+                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2  ">Inicio</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link ">Catalogo</a>
+                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Catalogo</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link ">Promociones</a>
+                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Promociones</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link ">Contacto</a>
+                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Contacto</a>
                                 </li>
 
 
                             </ul>
+
 
 
 
@@ -47,8 +50,10 @@
 
 
                         </nav>
-
                     </div>
+
+
+
 
 
 
@@ -86,8 +91,9 @@
                 </div>
 
             </div>
+{{--            VIDEO TRAILER--}}
             <div>
-                <iframe class="lg:w-[90%] lg:h-[460px] sm:mt-44 ml-4 mr-2 sm:w-[90%] sm:h-[400px] sm:ml-12 sm:mr-4 lg:ml-4 xs:mx-[10vw] xs:mt-32 xs:w-[80%] xs:h-[200px]     " src="https://www.youtube.com/embed/hvoD7ehZPcM?si=rezyiKSlN0kAITy7&amp;start=1&autoplay=1&mute=1&controls=1&rel=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="lg:w-[90%] lg:h-[460px] lg:mt-44 sm:mt-14 ml-4 mr-2 sm:w-[90%] sm:h-[400px] sm:ml-12 sm:mr-4 lg:ml-4 xs:mx-[10vw] xs:mt-32 xs:w-[80%] xs:h-[200px]     " src="https://www.youtube.com/embed/hvoD7ehZPcM?si=rezyiKSlN0kAITy7&amp;start=1&autoplay=1&mute=1&controls=1&rel=0&loop=1x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
 
