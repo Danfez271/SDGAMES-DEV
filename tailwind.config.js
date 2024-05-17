@@ -9,6 +9,8 @@ export default {
     extend: {
         lineHeight: {
             'extra-tight': '3rem',
+            'extra-tight-xs': '1rem',
+
         },
         height:{
             '128': '10vh'

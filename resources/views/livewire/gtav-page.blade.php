@@ -8,10 +8,10 @@
 {{--                     bg-[url(../../public/images/homepage/pagpopulares/bannergtapagjuego.png)]      bg-black opacity-50 h-full   --}}
 
 
-                        <nav class="nav sm:mx-20 justify-self-center xs:mx-[20%]  max-w-[1200px] truncate font-bold   " id="nav">
+                        <nav class="navegador  sm:mx-20 justify-self-center xs:mx-[20%]  max-w-[1200px] truncate font-bold   " id="navegador">
 
 
-                            <h2 class="nav__logo    ">
+                            <h2 class="navegador__logo    ">
                                 <a href="">
                                     <img src="{{ asset('images/homepage/logos/svg/sdgamesblanco.svg') }}" alt="" class="h-28 w-28 ">
                                 </a>
@@ -19,19 +19,19 @@
                             </h2>
 
 
-                            <ul class="nav__links  ">
+                            <ul class="navegador__links  ">
 
-                                <li class="nav__item">
-                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2  ">Inicio</a>
+                                <li class="navegador__item">
+                                    <a href="#" class="navegador__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2  ">Inicio</a>
                                 </li>
-                                <li class="nav__item">
-                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Catalogo</a>
+                                <li class="navegador__item">
+                                    <a href="#" class="navegador__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Catalogo</a>
                                 </li>
-                                <li class="nav__item">
-                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Promociones</a>
+                                <li class="navegador__item">
+                                    <a href="#" class="navegador__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Promociones</a>
                                 </li>
-                                <li class="nav__item">
-                                    <a href="#" class="nav__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Contacto</a>
+                                <li class="navegador__item">
+                                    <a href="#" class="navegador__link hover:rounded-full hover:bg-gradient-to-r hover:from-cyan-800 hover:to-cyan-800 lg:px-4 md:px-2">Contacto</a>
                                 </li>
 
 
@@ -40,12 +40,12 @@
 
 
 
-                            <a href="#nav" class="nav__hamburguer">
-                                <img src="{{asset('images/homepage/menu.svg')}}" alt="" class="nav__icon">
+                            <a href="#navegador" class="navegador__hamburguer">
+                                <img src="{{asset('images/homepage/menu.svg')}}" alt="" class="navegador__icon">
                             </a>
 
-                            <a href="#" class="nav__close">
-                                <img src="{{asset('images/homepage/close.svg')}}" alt=""  class="nav__icon">
+                            <a href="#" class="navegador__close">
+                                <img src="{{asset('images/homepage/close.svg')}}" alt=""  class="navegador__icon">
                             </a>
 
 
@@ -200,8 +200,8 @@
             </div>
         </div>
 
-        <div class="grupo-2 text-4xl  text-center mt-52 pb-10 font-extralight md:mt-20 xs:mt-10 xs:text-3xl ">
-            <small>SdGames Derechos reservados 2024.</small>
+        <div class="grupo-2 sm:text-4xl  text-center mt-52 pb-10 font-extralight md:mt-20 xs:mt-10 xs:text-2xl  ">
+            <small>SdGames Derechos reservados <br class="sm:hidden">2024.</small>
         </div>
     </footer>
 </div>

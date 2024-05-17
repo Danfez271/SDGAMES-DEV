@@ -182,7 +182,7 @@
     <div class="bg-[url(../../public/images/homepage/bannermission.png)] bg-center bg-cover min-h-[700px]    py-40 bg-no-repeat w-full  flex justify-start items-center lg:min-h-[500px] md:min-h-[400px] ">
         <h1 class=" text-white sm:mx-24 xs:mx-5 md:mb-12 md:mt-12 ">
 
-                <span class="font-bold  md:text-8xl sm:text-7xl xs:text-6xl lg:leading-extra-tight ">SDGames</span> <br>  <span class="font-normal md:text-7xl xs:text-4xl lg:leading-extra-tight"> es diversion </span>
+                <span class="font-bold  md:text-8xl sm:text-7xl xs:text-6xl lg:leading-extra-tight xs:leading-extra-tight-2 ">SDGames</span> <br>  <span class="font-normal md:text-7xl xs:text-4xl lg:leading-extra-tight xs:leading-extra-tight-2"> es diversion </span>
 
             <br>
             <span class="sm:text-3xl font-light justify-center xs:text-xl   ">

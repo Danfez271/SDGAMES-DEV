@@ -94,11 +94,6 @@
         min-height: 400px;
 
     }
-
-
-
-
-
 }
 
 @media (min-width:768px) {
@@ -108,6 +103,8 @@
 
         justify-items: end;
     }
+
+
 
 
 
@@ -138,14 +135,22 @@
     }
 }
 
+
+
+/**/
+/**/
+/*NAVEGADOR PARA CADA VIDEOJUEGO*/
+/**/
+/**/
+
 .backgame{
     background-image: url("../../public/images/homepage/pagpopulares/bannergtapagjuego.png");
     position: relative;
 
+
 }
+
 @media (min-width:768px) {
-
-
 
     .backgame::before{
         position: absolute;
@@ -155,11 +160,135 @@
 
     }
 
-    .nav{
+    .navegador{
         color: white;
         position: relative;
     }
 }
+
+
+.navegador{
+    --state-close: scale(0);
+    --state-hamburguer:scale(1);
+    --state-menu: translate(-100%);
+
+    padding: 40px 0;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+}
+
+.navegador:target{
+    --state-menu: translate(0);
+    --state-close: scale(1);
+    --state-hamburguer:scale(0);
+}
+
+.navegador__logo{
+    font-size: 2.5rem;
+    z-index: 1;
+    margin-right: 40px;
+}
+
+.navegador__hamburguer,
+.navegador__close{
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    transition: .4s transform;
+}
+
+.navegador__hamburguer{
+    transform: var(--state-hamburguer);
+}
+
+.navegador__close{
+    transform: var(--state-close);
+}
+
+.navegador__icon{
+    width: 40px;
+}
+
+.navegador__links{
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+
+
+    display: grid;
+    align-content: center;
+    gap: 2em;
+    padding-left: 5%;
+
+    transform: var(--state-menu);
+    transition: .3s transform;
+}
+
+.navegador__item{
+    list-style: none;
+}
+
+.navegador__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+@media (min-width:768px) {
+    .navegador{
+        --state-hamburguer:scale(0);
+        --state-menu: translate(0);
+    }
+
+    .navegador:target{
+        --state-close: scale(0);
+    }
+
+    .navegador__links{
+        padding: 0;
+        background-color: unset;
+        position: unset;
+        gap: 2rem;
+
+        grid-auto-flow: column;
+
+        transform: unset;
+
+        grid-column: -2/-1;
+        grid-row: 1/2;
+    }
+
+    .navegador__link{
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+}
+
+@media (min-width:768px) {
+
+    @media (max-width: 800px) {
+        .navegador__links {
+            gap: 10px;
+
+
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navegador__links {
+        padding-left: 15vw;
+    }
+}
+
 
 
 
