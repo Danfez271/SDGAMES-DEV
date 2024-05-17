@@ -71,7 +71,7 @@
 
 
     <div class="grid grid-cols-1 bg-[#041333] xl:pt-0 md:pt-12" id="catalog">
-        <div class=" pt-2 text-center justify-center pr-14 pl-14 lg:mt-20 md:mt-52 ">
+        <div class=" pt-2 text-center justify-center pr-14 pl-14 lg:mt-20 md:mt-20 ">
             <h2 class="text-white 2xl:text-6xl xl:text-6xl lg:text-4xl sm:text-5xl xs:text-5xl mb-4 font-semibold">
                 Juegos mas populares</h2>
             <h3 class="text-white 2xl:text-3xl xl:text-3xl lg:text-3xl sm:text-3xl xs:text-xl mb-4 font-light ">

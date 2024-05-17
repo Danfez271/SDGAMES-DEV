@@ -119,7 +119,7 @@
         padding: 0;
         background-color: unset;
         position: unset;
-        gap: 2rem;
+        gap: 1.5rem;
         grid-auto-flow: column;
 
 
@@ -132,6 +132,17 @@
     .nav__link {
         font-size: 20px;
         letter-spacing: normal;
+    }
+}
+
+@media (min-width:768px) {
+
+    @media (max-width: 810px) {
+        .nav__links {
+            gap: 10px;
+
+
+        }
     }
 }
 
