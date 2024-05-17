@@ -274,7 +274,7 @@
             </div>
 
         <div class="grupo-2 text-4xl  text-center mt-52 pb-10 font-extralight md:mt-20 xs:mt-10 xs:text-3xl ">
-            <small>SdGames Derechos reservados 2024.</small>
+            <small>SdGames Derechos reservados <br class="sm:hidden"> 2024.</small>
         </div>
     </footer>
 </div>
