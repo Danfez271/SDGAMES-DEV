@@ -23,6 +23,8 @@ export default {
         },
         screens: {
             xs: "300px",
+            xmin: "440px",
+            xplus: "350px",
         },
     },
   },

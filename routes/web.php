@@ -1,6 +1,7 @@
 <?php
 use App\Livewire\LandingPage;
 use App\Livewire\GtavPage;
+use App\Livewire\Catalogo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',  LandingPage::class)->name('landing');
 Route::get('/gtav',         GtavPage::class)->name('gtav');
+Route::get('/catalogo',         Catalogo::class)->name('catalogo');
 
