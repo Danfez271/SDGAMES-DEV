@@ -146,7 +146,7 @@
                 </p>
                 
                 
-            <div class="flex xl:pb-10 pb-0 justify-center">
+                <div class="md:flex hidden xl:pb-10 pb-0 justify-center ">
                     <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 lg:ml-24 md:ml-0 xs:ml-0">
                         <div class="flex 2xl: lg: md: xs: sm: ">
                             <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-3xl w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] lg:px-44 lg:py-8 md:px-28 md:py-6 sm:px-24 sm:py-6 xs:px-12 xs:py-4  hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
@@ -154,26 +154,36 @@
                             </a>
                         </div>
                     </div>
-            </div>
+                </div>
                 
             </div>
 
-
-            <div class="sm:basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center  ">
-
-                <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
-                    <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
-                </a>
-
-                <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
-                    <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
-                </a>
-
-
-                <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
-                    <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
-                </a>
-
+            <div class="flex flex-col justify-end">
+                <div class="sm:basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center  ">
+    
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                        <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
+                    </a>
+    
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                        <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
+                    </a>
+    
+    
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                        <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
+                    </a>
+    
+                </div>
+                <div class="flex md:hidden xl:pb-10 pb-0 justify-center ">
+                    <div class=" flex 2xl:gap-1 lg:gap-1 xl:gap-1 md:gap-4 sm:gap-0 xs:gap-0 my-14 lg:ml-24 md:ml-0 xs:ml-0">
+                        <div class="flex 2xl: lg: md: xs: sm: ">
+                            <a href="#" id="" class="2xl:text-5xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-3xl w-max  text-[#FDB710] font-bold  p-5   text-center rounded-full bg-gradient-to-r from-[#000000] to-[#000000] lg:px-44 lg:py-8 md:px-28 md:py-6 sm:px-24 sm:py-6 xs:px-12 xs:py-4  hover:text-[#000000]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                                Añadir Plan
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
