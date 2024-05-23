@@ -187,7 +187,7 @@
 
     padding: 40px 0;
     display: grid;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(2, max-content);
 }
@@ -258,6 +258,7 @@
     .navegador {
         --state-hamburguer: scale(0);
         --state-menu: translate(0);
+        justify-content: start;
     }
 
     .navegador:target {
