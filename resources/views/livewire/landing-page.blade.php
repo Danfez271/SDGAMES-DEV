@@ -6,7 +6,7 @@
         <div>
             <div class="relative">
 
-                <header class="sm:bg-[url(../../public/images/homepage/banner.png)] xs:bg-[url(../../public/images/homepage/movilrespon/bannermovil.png)]    bg-cover min-h-[600px] h-[20vw] bg-center lg:md:min-h-[40vw]    sm:pt-2">
+                <header class="md:bg-[url(../../public/images/homepage/banner.png)] xs:bg-[url(../../public/images/homepage/movilrespon/bannermovil.png)] md:bg-center bg-top   bg-cover md:min-h-[600px] min-h-[550px] lg:md:min-h-[40vw]    sm:pt-2">
                     <nav class="nav sm:mx-20  xs:mx-12 lg:mx-24 justify-bet  max-w-[1200px] truncate font-bold flex " id="nav">
 
                         <h2 class="nav__logo">
@@ -48,7 +48,7 @@
                     <div>
                         <div class="max-w-[1440px] w-full    sm:mx- justify-self-center text-white">
                             <div class=" sm:top-56 xs:top-52 sm:left-4 sm:right-4 xs:right-4 xs:ml-5 md:ml-12 lg:ml-12 2xl:ml-16  md:w-11/12 text-white md:top-52 lg:top-52 xl:top-56 2xl:top-80 left-12 right-1/4 lg:w-45 xs:pt-10 " id="TBienvenida">
-                                <h1 class="xl:text-7xl lg:text-7xl sm:justify-start sm:text-6xl xmin:text-5xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold ml-12 xs:mx-0 sm:ml-12 sm:text-start xs:text-center" >
+                                <h1 class="xl:text-7xl lg:text-7xl sm:justify-start  xmin:text-5xl xs:text-3xl mb-4 text-montserrat md:text-6xl font-bold ml-12 xs:mx-0 sm:ml-12 sm:text-start xs:text-center" >
                                     ¡Tu <span class="text-cyan-400"> destino gamer </span> <br>esta aqui!
                                 </h1>
 
@@ -56,7 +56,7 @@
 
                                 <div class=" flex flex-wrap 2xl:gap-4 lg:gap-4 xl:gap-4 md:gap-4 sm:gap-0 xs:gap-0 my-auto sm:ml-12 xs:text-center sm:text-start ">
                                     <div class="flex-1 2xl:basis-0 lg:basis-0 md:basis-0 xs:basis-full sm:basis-full ">
-                                             <a href="/catalogo" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-xl  text-white font-bold  p-3.5 mt-5  text-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080] sm:px-14 xmin:px-8 xs:px-6 hover:text-[#A200FF]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
+                                             <a href="/catalogo" id="" class="2xl:text-3xl xl:text-3xl lg:text-4xl md:text-4xl  xs:text-xl  text-white font-bold  p-3.5 mt-5  text-center rounded-full bg-gradient-to-r from-[#A200FF] to-[#510080] sm:px-14 xmin:px-8 xs:px-6 hover:text-[#A200FF]  hover:bg-gradient-to-r hover:from-white hover:to-white  ">
                                             Explora nuestros juegos!
                                             </a>
                                     </div>
@@ -105,15 +105,15 @@
 
     <div class="flex flex-row">
 
-        <div class="lg:bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] xs:bg-[url(../../public/images/homepage/movilrespon/bannerpsplus.png)] xl:bg-right-top min-h-[800px] max-w-full flex lg:flex-row md:flex-col sm:flex-col sm:gap-2 xs:flex-col bg-no-repeat lg:min-h-[900px] lg:bg-cover md:bg-right xs:bg-cover py-28 ">
-            <div class=" flex flex-col sm:items-start items-center  basis-2/5">
+        <div class="lg:bg-[url(../../public/images/homepage/psplus/psplusbanner.png)] xs:bg-[url(../../public/images/homepage/movilrespon/bannerpsplus.png)] xl:bg-right-top min-h-[800px] max-w-full flex lg:flex-row md:flex-col sm:flex-col sm:gap-2 xs:flex-col bg-no-repeat lg:min-h-[900px] lg:bg-cover md:bg-right xs:bg-cover xs:pt-16 lg:pb-20 ">
+            <div class=" flex flex-col lg:items-start items-center  basis-2/5">
 
                 <div class="flex justify-center">
-                <img class=" xmin:w-[45vw] 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-20 sm:ml-[25vw] md:scale-100 xs:scale-150 xs:justify-center sm:justify-start  xs:w-[65vw] sm:scale-150 "  src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
+                <img class=" xmin:w-[45vw] 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-20 md:mr-20 lg:mr-0  md:scale-100 xs:scale-150 xs:justify-center lg:justify-start  xs:w-[60vw] sm:scale-150 "  src="{{asset('images/homepage/psplus/pspluslogo.png')}}" alt="">
                 </div>
 
 
-                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw] mb-[4vw] ">
+                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-2xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw] mb-[4vw] sm:mx-20 ">
                     Disfruta de cientos de juegos de PS5, PS4, clásicos
                     de PlayStation y beneficios imperdibles de tres
                     planes de suscripción a precios excelentes que
@@ -122,24 +122,24 @@
 
                   
 
-                <h3 class="text-white 2xl:text-7xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-2xl text-center sm:text-start font-semibold uppercase lg:ml-28 sm:mr-8 xs:mr-0 xs:ml-0   ">
+                <h3 class="text-white 2xl:text-7xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-2xl text-center sm:text-start font-semibold uppercase lg:ml-28 sm:mr-8 xs:mr-0 xs:ml-0  sm:mx-20 ">
                     playstation plus <br class="xplus:hidden block">deluxe
                 </h3>
 
                    
 
-                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw] mb-[4vw]" >
+                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-2xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw] mb-[4vw] sm:mx-20" >
                     Disfruta de todos los beneficios de PlayStation Plus
                     de los planes Extra y Essential, además de
                     beneficios exclusivos, como pruebas de juegos y
                     catálogo de clásicos. 
                 </p>
 
-                <h3 class="text-white 2xl:text-7xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-2xl text-center sm:text-start font-semibold sm:uppercase normal-case lg:ml-28 ">
+                <h3 class="text-white 2xl:text-7xl xl:text-6xl lg:text-6xl sm:text-4xl xs:text-2xl text-center sm:text-start font-semibold normal-case lg:ml-28 sm:mx-20 ">
                     Pruebas de juegos
                 </h3>
 
-                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-3xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw]  mb-[4vw]">
+                <p class="text-black 2xl:text-2xl xl:text-2xl lg:text-2xl sm:text-2xl xs:text-base  font-normal lg:ml-28 mt-4 sm:mr-8 xs:mr-[8vw] xs:ml-[8vw]  mb-[4vw] sm:mx-20">
                     Prueba una selección de los títulos más importantes
                     con límite de tiempo para ayudarte a decidir tu
                     próxima experiencia de juego.
@@ -159,18 +159,18 @@
             </div>
 
             <div class="flex flex-col justify-end">
-                <div class="sm:basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center  ">
+                <div class="sm:basis-3/5 grid xl:grid-cols-3 2xl:grid-cols-3 grid-cols-3 xl:justify-items-center lg:justify-items-center place-items-center lg:items-end  md:grid-rows-1 md:justify-center md:items-center  xs:mr-[8vw] xs:ml-[8vw] md:mb-10  sm:mx-0  ">
     
-                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[97%]" href="">
                         <img src="{{asset('images/homepage/psplus/gow.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Amazon Prime sdprimetv">
                     </a>
     
-                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[97%]" href="">
                         <img src="{{asset('images/homepage/psplus/ghost.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="HBO Max sdprimetv">
                     </a>
     
     
-                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[80%]" href="">
+                    <a class="xl:w-[95%] lg:w-[95%]  md:w-[80%] sm:w-[80%] xs:w-[97%]" href="">
                         <img src="{{asset('images/homepage/psplus/granturismo.png')}}" loading="lazy" class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto xs:h-48 rounded-lg hover:brightness-110 " alt="Apple Tv sdprimetv">
                     </a>
     
@@ -190,13 +190,13 @@
 
     </div>
     <div class="sm:bg-[url(../../public/images/homepage/bannermission.png)] xs:bg-[url(../../public/images/homepage/movilrespon/bnncontactomovil.png)] xs:bg-cover bg-center bg-cover min-h-[700px]     sm:py-40 bg-no-repeat w-full  flex sm:justify-start sm:text-start sm:items-start xs:items-start  xs:text-center xs:pt-[30vw] lg:min-h-[500px] md:min-h-[400px] ">
-        <h1 class=" text-white sm:mx-24 md:mb-12 md:mt-12 xs:mx-10 xmin:mx-20  ">
+        <h1 class=" text-white sm:mx-24 md:mb-12 md:mt-12 xs:mx-0 xmin:mx-10  ">
 
                 <span class="font-bold  md:text-8xl sm:text-7xl xs:text-6xl lg:leading-extra-tight xs:leading-extra-tight-2  ">SDGames</span> <br>  <span class="font-normal md:text-7xl xs:text-4xl lg:leading-extra-tight xs:leading-extra-tight-2"> es diversion </span>
 
             <br>
             <br>
-            <p class="sm:text-3xl font-light xs:text-xl sm:text-start xs:text-center    ">
+            <p class="sm:text-3xl font-light xs:text-xl sm:text-start xs:text-center xs:mx-10 sm:mx-0   ">
                         ofreciendo un servicio rápido y eficiente <br class="xs:hidden sm:inline ">
                         en la venta de juegos.
             </p >
