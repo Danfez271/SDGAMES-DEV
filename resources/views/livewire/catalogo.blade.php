@@ -81,7 +81,7 @@
             <h5 class="font-normal text-2xl text-start text-white">Buscar alfabeticamente</h5>
         </div>
 
-        <div class="mx-[14vw] flex justify-between mb-12">
+        <div class="mx-[14vw] flex justify-between mb-12 mt-12">
             @php 
             $abecedario = range('A', 'Z')
             @endphp
@@ -125,7 +125,50 @@
                     </div>
 
                 </div>
-       
+
+
+
+        <!-- PANELES DE JUEGOS -->
+
+        <div class="container mx-[5vw] mt-4 ">
+            <div class="grid grid-cols-3 grid-rows-2 gap-2">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 1" class="w-fit h-fit object-cover ">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 2" class="w-fit h-fit object-cover">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 3" class="w-fit h-fit object-cover">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 4" class="w-fit h-fit object-cover">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 5" class="w-fit h-fit object-cover">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 6" class="w-fit h-fit object-cover">
+            </div>
+        </div>
+
+        <!-- NUMERO DE PAGINAS -->
+        <div class="mx-[18vw] flex justify-between ">
+
+        
+            <button class="scale-75 ">
+                <svg width="47" height="65" viewBox="0 0 47 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M46 63.1654L0.889384 32.5L46 1.83456V63.1654Z" fill="white" stroke="#707070"/>
+                </svg>
+            </button>
+            
+
+            @php 
+            $paginas = range('1', '20')
+            @endphp
+             
+            @foreach ($paginas as $page): 
+                
+                <a href="#" class="font-light text-2xl text-white hover:text-[#A200FF] mb-12 mt-12"><?= $page; ?></a>';
+            @endforeach
+            
+            <button class="scale-75 ">
+                <svg width="47" height="64" viewBox="0 0 47 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 1.33455L45.6106 32L0.5 62.6654V1.33455Z" fill="white" stroke="#707070"/>
+                </svg>          
+            </button>
+            
+
+        </div>
 
         <!-- LOGOS -->
 
