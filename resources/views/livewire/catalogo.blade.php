@@ -131,14 +131,14 @@
 
         <!-- PANELES DE JUEGOS -->
 
-        <div class="  mt-4 px-[14vw] w-full  ">
-            <div class="grid grid-cols-3 grid-rows-2  justify-items-center *:rounded-[1rem] gap-y-[10px]  ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 1" class="w-[85%] h-[95%] ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 2" class="w-[85%] h-[95%] ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 3" class="w-[85%] h-[95%] ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 4" class="w-[85%] h-[95%] ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 5" class="w-[85%] h-[95%] ">
-                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 6" class="w-[85%] h-[95%] ">
+        <div class="  mt-14 px-[14vw] w-full  ">
+            <div class="grid grid-cols-3 grid-rows-2  justify-items-center *:rounded-[60px]">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 1" class="">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 2" class="">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 3" class="">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 4" class="">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 5" class="">
+                <img src="{{asset('images/homepage/mostpopular/minecraft.png')}}" alt="Imagen 6" class="">
             </div>
         </div>
 
